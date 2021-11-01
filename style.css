@@ -1,0 +1,39 @@
+body {
+    background:linear-gradient(rgb(167, 127, 76), rgb(204, 169, 72));
+}
+
+#container {
+    background:linear-gradient(rgb(214, 184, 120), rgb(243, 198, 74));
+    border-radius: 10%;
+    width: 1050px;
+    height: 500px;
+    margin:auto;
+    padding: 10px;
+    display:grid;
+    grid-template-columns: repeat(6, 150px);
+    grid-gap:10px; /*espace entre elems*/
+    text-align: center;
+    justify-content:  center;
+    box-shadow: 10px 10px 20px rgb(124, 63, 21);
+}
+
+img {
+    width:100%;
+    height:100%;
+    border-radius: 5%;
+    box-shadow: 8px 8px 14px rgb(124, 63, 21);
+}
+
+span {
+    height: 100%;
+}
+
+h1, h2, p {
+    text-align: center;
+    color:antiquewhite;
+    text-shadow: 7px 7px 7px rgb(54, 39, 15);
+}
+
+p{
+    font-style: italic;
+}
